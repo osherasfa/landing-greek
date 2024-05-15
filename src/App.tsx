@@ -1,7 +1,12 @@
+import Banner from "./components/Banner"
+
 function App() {
   return (
-    <div className="text-white bg-neutral-950 h-screen noise">
-      Hey
+    <div className="text-white bg-neutral-950 h-screen">
+      <h1>Hey</h1>
+      <div className="cylinder">
+        <Banner />
+      </div>
     </div>
   )
 }
