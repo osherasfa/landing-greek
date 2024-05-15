@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="text-white bg-neutral-950 h-screen">
       <h1>Hey</h1>
-      <div className="cylinder">
+      <div className="ring">
         <Banner />
       </div>
     </div>

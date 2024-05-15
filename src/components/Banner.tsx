@@ -1,6 +1,6 @@
 export const Banner = () => {
   return (
-    <div className="font-montserrat font-black face">
+    <div className="font-montserrat font-black">
       <h1 className="text-8xl">{`THE WORLD IS BRUTAL - ISM < BE READY`}</h1>
       <div className="flex items-center gap-8">
         <h1 className="text-8xl font-light text-center">HELLO<span className="block text-sm text-center font-black tracking-[1.3rem] pl-4">YOUR WORLD</span></h1>
