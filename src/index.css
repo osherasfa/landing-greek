@@ -56,7 +56,7 @@ body::after {
   width: fit-content; 
   position: relative;
   transform-style: preserve-3d; 
-  animation: spin 10s infinite linear; 
+  /* animation: spin 10s infinite linear; */
   box-shadow: none;
 }
 

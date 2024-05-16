@@ -1,12 +1,16 @@
-import Banner from "./components/Banner"
+import Lottie from 'react-lottie';
+import Menu from './assets/lotties/menu.json';
 
 function App() {
   return (
     <div className="text-white bg-neutral-950 h-screen">
       <h1>Hey</h1>
-      <div className="ring">
-        <Banner />
-      </div>
+      <Lottie 
+        options={{ animationData: Menu }}
+        eventListeners={[{ eventName: 'complete', callback: () => console.log('the animation completed:') }]}
+        height={200}
+        width={200}
+      />
     </div>
   )
 }
