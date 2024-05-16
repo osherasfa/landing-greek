@@ -24,6 +24,7 @@ body::after {
   animation: noise-animation .2s infinite;
   opacity: .8;
   visibility: visible;
+  pointer-events: none;
 }
 
 @keyframes noise-animation {
@@ -46,6 +47,10 @@ body::after {
   color: transparent;
 }
 
+.text-stroke::selection {
+  /* color: red; */
+  background-color: #0236a0;
+}
 
 .ring {
   width: fit-content; 
